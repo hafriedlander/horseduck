@@ -1,0 +1,21 @@
+# Hello world!
+
+0 0 start
+
+# variables
+. p:H Z:0 m1:-1
+
+# output *p;
+start:a; p Z; Z a; Z
+a:0 0
+
+# p++
+m1 p;
+
+#check if p<E
+a; E Z; Z a; Z;
+p a (-1)
+
+Z Z start
+
+. H: "Hello, World!\n" E:E
